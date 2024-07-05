@@ -42,7 +42,6 @@ public class CategoryPage extends BasePage{
 
 
     public void searchProduct(){
-        BrowserUtils.waitFor(2);
         searchArea.click();
         BrowserUtils.waitFor(2);
         searchArea.sendKeys("Laptop");
