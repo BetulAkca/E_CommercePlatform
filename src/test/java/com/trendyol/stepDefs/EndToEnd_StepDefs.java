@@ -23,6 +23,7 @@ public class EndToEnd_StepDefs {
         Driver.get().get(ConfigurationReader.get("url"));
         BrowserUtils.waitFor(2);
         categoryPage.closeIcon.click();
+        BrowserUtils.waitFor(4);
 
     }
     @When("The user navigates to the {string} category")
